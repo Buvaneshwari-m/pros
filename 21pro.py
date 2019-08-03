@@ -1,0 +1,9 @@
+size_guvi=int(input())
+put_hu=hu(map(int,input().split()))[:size_guvi]
+div=int(size_guvi/2)
+sub_g1=sum(put_hu[:div])//len(put_hu[:div])
+sub_guvi2=sum(put_hu[div:])//len(put_hu[div:])
+if(sub_guvi1==sub_guvi2):
+  print("yes")
+else:
+  print("no")
